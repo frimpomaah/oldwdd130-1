@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us - Whitewater Rafting Ghana</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! If you have any questions or would like to book a trip, feel free to reach out.</p>
+
+        <!-- Contact Form -->
+        <form action="submit_form.php" method="POST">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <h2>Contact Details</h2>
+        <p><strong>Email:</strong> info@whitewaterghana.com</p>
+        <p><strong>Phone:</strong> +233 541 149 7889</p>
+        <p><strong>Address:</strong> 123 Adventure Street, Accra, Ghana</p>
+
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=YOUR_GOOGLE_MAP_URL" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <h2>Follow Us</h2>
+        <p>Stay connected through our social media:</p>
+        <a href="https://facebook.com">Facebook</a> | <a href="https://instagram.com">Instagram</a>
+    </section>
+
+    <footer>
+        <p> 2024 Whitewater Rafting Ghana</p>
+    </footer>
+</body>
+</html>
