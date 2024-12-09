@@ -31,15 +31,17 @@ header nav ul li a {
 
 /* Hero Section */
 #hero {
-    background-image: url('c:\Users\admin\OneDrive\Pictures\images_white-volta.jpg');
+    background-image: url("/whitewater-rafting-website/images/rafting3.jpg");
     background-size: cover;
     text-align: center;
     padding: 100px 0;
-    color: white;
+    color: #333;
 }
 
 #hero h1 {
     font-size: 3rem;
+    font-weight: bold;
+    color: #e94e77;
 }
 
 .cta-button {
