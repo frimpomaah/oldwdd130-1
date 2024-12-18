@@ -182,12 +182,16 @@ figure{
 display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
-  width: 300px;  
+  width: 230px;  
 }
 
-.employee section{
-  display: flex;
+.employee img {
+  display: grid;
+  grid-column: 1/-1;
+  text-align: center;
 }
+
+
 
 .forms section{
   display: flex;
