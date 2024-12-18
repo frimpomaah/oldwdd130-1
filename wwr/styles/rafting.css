@@ -89,10 +89,10 @@ nav ul li a:hover {
     color: var(--accent-color);
 }
 
-main { 
+/* main { 
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-}
+} */
 
 .hero {
   display: grid;
@@ -133,7 +133,23 @@ p2 {
 
 iframe {
   border: 0;
+  
 }
+
+/* .section h4 {
+  display: flex;
+  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  
+} */
+/* .h4 img {
+  width: 250px;
+  position: relative;
+} */
+
+
 
 .adventures {
   display: grid;
@@ -162,6 +178,8 @@ figcaption{
 
 .figure_flex{
   display: flex;
+  margin: none;
+  
 }
 
 figure img{
@@ -178,36 +196,71 @@ figure{
   grid-column: 1/-1;
   text-align: center;
 }
-.employee img section {
+/* .employee img section {
 display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
   width: 230px;  
-}
+} */
 
-.employee img {
+/* .employee img {
   display: grid;
   grid-column: 1/-1;
   text-align: center;
-}
+} */
 
 
 
-.forms section{
+/* .forms section{
   display: flex;
   align-items:center;
   color: #03045e;
   padding-left: 1rem;
+} */
+
+/* main {
+  width: 600px;
+  margin: auto;
+} */
+
+/* img {
+  width: 100%;
 }
-
-
-
-
+h2, h3 {
+  display: grid;
+  grid-template-columns: 30%, 70%;
+  gap: 2rem;
+}
 .map {
+  grid-column: 4/1;
+  grid-row: 3/2;
+} */
+
+.flex-map {
   display: flex;
-  align-items:flex-end;
-  padding-right: 5rem;
+  flex-direction: row;
+  margin: 0 auto;
 }
+
+.flex-map, #map {
+  padding: 1rem;
+}
+
+.prof {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   color: #03045e;
+}
+
+.questions {
+  padding: 1rem;
+}
+
+label {
+  color: #03045e;
+}
+
 
 /* footer styles */
 footer {
@@ -220,7 +273,7 @@ footer {
 
 footer > p {
   grid-column: 1/-1;
-  padding-top: 2.5rem;
+  padding: 2.5rem;
   color: white;
 }
 
