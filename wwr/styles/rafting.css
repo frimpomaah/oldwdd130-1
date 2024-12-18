@@ -99,6 +99,8 @@ main {
   grid-column: 1 / -1;
 }
 
+.hero img 
+
 figcaption {
   color: #03045e;
 }
@@ -155,6 +157,7 @@ iframe {
 
 figcaption{
   text-align: center;
+  color: #03045e;
 }
 
 .figure_flex{
@@ -174,6 +177,32 @@ figure{
   display: grid;
   grid-column: 1/-1;
   text-align: center;
+}
+.employee img section {
+display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  width: 300px;  
+}
+
+.employee section{
+  display: flex;
+}
+
+.forms section{
+  display: flex;
+  align-items: right;
+  color: #03045e;
+  padding-left: 1rem;
+}
+
+
+
+
+.map {
+  display: flex;
+  align-items: left;
+  padding-right: 10;
 }
 
 /* footer styles */
