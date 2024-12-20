@@ -122,6 +122,11 @@ figcaption {
   text-align: center; 
 }
 
+aside box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
 
 p1 {
   grid-column: 1;
@@ -223,6 +228,16 @@ display: grid;
   margin: auto;
 } */
 
+main.home {
+  text-align: center;
+  margin: 0 auto;
+  color: #03045e;
+}
+
+main.home h1 h2 h3 h4 h5 {
+  font-size: 20px;
+}
+
 /* img {
   width: 100%;
 }
@@ -235,6 +250,16 @@ h2, h3 {
   grid-column: 4/1;
   grid-row: 3/2;
 } */
+
+/* input,
+textarea, */
+button {
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 
 .flex-map {
   display: flex;
@@ -346,12 +371,12 @@ footer > p {
   
   .social-icons a.social-icon {
     text-decoration: none;
-    color: #ade8f4;
+    color: #ade8f4; 
     font-size: 18px;
   }
   
   .social-icons a.social-icon:hover {
-    color: #3498db;
+   color: #3498db;
   }
 
   .social-icons a img {
