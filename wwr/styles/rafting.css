@@ -260,6 +260,11 @@ button {
   box-sizing: border-box;
 }
 
+textarea {
+  width: max-content;
+  height: max-content;
+}
+
 
 .flex-map {
   display: flex;
