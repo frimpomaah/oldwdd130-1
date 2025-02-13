@@ -198,12 +198,15 @@ figcaption{
 
 .figure_flex{
   display: flex;
-  /* margin: 1px; */
-  
+  flex-direction: row;
+  align-content: space-between;
+  /* width: 250px; */
 }
 
 figure img{
-  width: 230px;
+  width: 300px;
+  margin: 5px;
+  padding: 2px;
   /* height: 300px; */
 }
 
@@ -217,32 +220,64 @@ figure{
   grid-column: 1/-1;
   text-align: center;
 }
-/* .employee img section {
-display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1rem;
-  width: 230px;  
-} */
 
-/* .employee img {
-  display: grid;
-  grid-column: 1/-1;
-  text-align: center;
-} */
-
-
-
-/* .forms section{
+section.contact-form {
+  background-color: var(--accent-color);
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 600px;
+  height: 470px;
+  margin: 0 auto;
+  text-align: left;
+  align-content: space-evenly;
+}
+.form{
   display: flex;
-  align-items:center;
-  color: #03045e;
-  padding-left: 1rem;
-} */
+  flex-direction: column;
+  padding: 1px;
+}
 
-/* main {
-  width: 600px;
-  margin: auto;
-} */
+.form-fieldset {
+  display: flex;
+  flex-direction: column;
+  padding: 1px;
+  width: auto;
+}
+
+.form-option {
+  height: 27px;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 27px;
+  /* padding: 1px; */
+}
+
+.form-input {
+  height: 30px;
+}
+
+.form-textarea {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  padding: 1px;
+}
+
+.form-button {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 25px;
+  width: auto;
+  padding: 1px;
+}
+.button {
+  width: 2px;
+}
 
 main.home {
   text-align: center;
@@ -250,7 +285,7 @@ main.home {
   color: #03045e;
 }
 
-main.home h1 h2 h3 h4 h5 {
+main.home h1 h2 h3 h4 h5 h6 {
   font-size: 20px;
 }
 
@@ -305,6 +340,11 @@ textarea {
 
 label {
   color: #03045e;
+}
+
+.Follow {
+  color: #00b4d8;
+  font-size: 20px;
 }
 
 
@@ -382,7 +422,7 @@ footer > p {
     position: absolute;
     top: 20px;
     left: 20px;
-    color: #0077b6;
+    color: #03045e;
     z-index: 2;
   }
   
@@ -414,6 +454,11 @@ footer > p {
     height: auto;
   }
   
+  .main section h6 {
+    font-size: 20px;
+    color: #03045e;
+    
+  }
   .social-icons a.social-icon {
     text-decoration: none;
     color: #ade8f4; 

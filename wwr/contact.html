@@ -35,7 +35,7 @@
             <div class="hero">
                 <div class="figure_flex">
                     <h1>About Us | Whitewater Rafting Ghana | Juliet Frimpomaah</h1>
-                    <img src='images/banner_try.jpg' alt='background image' width="600">
+                    <img src='images/river-wide3.jpg' alt='background image' width="300">
                 </div>
                 <div class="flex-map">
                     <div class="contact">
@@ -64,22 +64,22 @@
 
                 <figure>
                     <img src='images/Senior_rafting_guide.jpg' alt='Employee' width="230">
-                    <figcaption>Sofia Seige | Senior Rafting Guide</figcaption>
+                    <figcaption>Sofia Seige | Rafting Guide</figcaption>
                 </figure>
 
                 <figure>
                     <img src='images/Lead_rafting_guide.jpg' alt='Employee' width="230">
-                    <figcaption> Patricia Sagoe | Lead Rafting Guide</figcaption>
+                    <figcaption> Patricia Sagoe | Lead Guide</figcaption>
                 </figure>
 
                 <figure>
                     <img src='images/Junior_rafting_guide.jpg' alt='Employee' width="230">
-                    <figcaption>Ernestina Akumaglo | Senior Rafting Guide</figcaption>
+                    <figcaption>Janet Akumaglo | Rafting Guide</figcaption>
                 </figure>
 
                 <figure>
                     <img src='images/Safety_kayaker.jpg' alt='Employee' width="230">
-                    <figcaption>Philemon Akpaloo | Senior Rafting Guide</figcaption>
+                    <figcaption>Philip Akpaloo | Safety Kayaker</figcaption>
                 </figure>
             </div>
 
@@ -87,32 +87,35 @@
         <section class="questions">
 
             <h2>Have Questions? Contact Us!</h2>
-
-            <p>We'd love to hear from you! If you have any questions or would like to book a trip, feel free to reach
-                out.</p>
-
-            <form action="#" method="post">
-                <label for="name">Your Name:</label><br>
-                <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
-                <label for="email">Your Email Address:</label><br>
-                <input type="email" id="email" name="email" required placeholder="Enter your email address"><br><br>
-                <label>Purpose of your message:</label><br>
-                <input type="radio" id="general" name="purpose" value="General Inquiry" required>
-                <label for="general">General Inquiry</label><br>
-                <input type="radio" id="reservation" name="purpose" value="Reservation Question" required>
-                <label for="reservation">Reservation Question</label><br>
-                <input type="radio" id="suggestion" name="purpose" value="Website Suggestion" required>
-                <label for="suggestion">Website Suggestion</label><br><br>
-                <label for="message">Your Message:</label><br>
-                <textarea id="message" name="message" rows="4" required
-                    placeholder="Enter your message"></textarea><br><br>
-                <input type="checkbox" id="newsletter" name="newsletter">
-                <label for="newsletter">Please subscribe me to the monthly newsletter</label><br><br>
-                <button type="proceed"> Send Your Inquiry </button>
-            </form>
         </section>
+            <!-- <p>We'd love to hear from you!</p>  -->
+            <!-- <p>If you have any questions or would like to book a trip, feel free to reach out.</p> -->
+        <section class="contact-form">
+                <h3 class="section-subtitle">Contact Form</h3>
+                <form action="#" method="post" class="form">
+                    <label for="name" class="form-label">Name:</label>
+                    <input type="text" id="name" name="name" required="" class="form-input">
+                    
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" id="email" name="email" required="" class="form-input">
+                    
+                    <fieldset class="form-fieldset">
+                        <legend>Purpose of Message:</legend>
+                        <label class="form-option"><input type="radio" name="purpose" value="general" required=""> General Inquiry</label>
+                        <label class="form-option"><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                        <label class="form-option"><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+                    </fieldset>
+                    
+                    <label for="message" class="form-label">Message:</label>
+                    <textarea id="message" name="message" rows="4" required="" class="form-textarea"></textarea>
+                    
+                    <label class="form-option"><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+                    
+                    <button type="submit" class="form-button">Send Your Inquiry</button>
+                </form>
+            </section>
         <section>
-            <h6>Follow Us</h6>
+            <h6 class="Follow">Follow Us</h6>
             <p>Stay connected through our social media:</p>
         </section>
 
