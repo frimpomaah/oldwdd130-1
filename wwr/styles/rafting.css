@@ -271,12 +271,14 @@ section.contact-form {
   display: flex;
   flex-direction: column;
   text-align: center;
-  height: 25px;
+  height: 27px;
   width: auto;
-  padding: 1px;
+  padding: 5px;
+  justify-content: center;
 }
 .button {
-  width: 2px;
+  /* width: 2px; */
+  justify-content: center;
 }
 
 main.home {
@@ -319,12 +321,25 @@ textarea {
 
 .flex-map {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 0 auto;
 }
 
 .flex-map, #map {
-  padding: 1rem;
+  padding: 1rem; 
+}
+.figure_flex {
+  height: 350px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  border-radius: auto;
+  margin: 2rem;
+  /* padding: 2rem; */
 }
 
 .prof {
@@ -353,8 +368,9 @@ footer {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   align-items: center;
-  background-color: #00b4d8 
-  /* var(--text-color)  #caf0f8; */
+  background-color: #00b4d8; 
+  size: 100px;
+  
 }
 
 footer > p {
