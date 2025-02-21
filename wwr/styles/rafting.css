@@ -17,7 +17,7 @@
     font-family: "Roboto", sans-serif;
   }
   
-  h1, h2, h3, h4 {
+  h1, h2, h3, h4, h5 {
     color: var(--primary-color);
     font-size: 24px;
     font-weight: bold;
@@ -681,7 +681,7 @@ a.cta-button:hover {
 
 h6{
   padding: 10px;
-  font-size: 15px;
+  font-size: 24px;
 }
 
 .home {
